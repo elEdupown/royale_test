@@ -1,0 +1,31 @@
+{
+  "name": "royaleapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elEdupown/royale_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elEdupown/royale_test/issues"
+  },
+  "homepage": "https://github.com/elEdupown/royale_test#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.4.3",
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
