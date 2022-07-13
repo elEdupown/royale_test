@@ -1,16 +1,20 @@
+import Link from 'next/link';
 import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Royale Test</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Bienvenido a <a href="https://clashroyale.com/es/">Clash Royale</a>
+          Clan{' '}
+          <Link href="/profileInfo/clan">
+            <a>aqui</a>
+          </Link>
         </h1>
 
         <p className="description">
