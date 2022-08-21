@@ -10,7 +10,6 @@ const theme = extendTheme({
         global:{
             'html, body': {
                 backgroundImage: "url('https://images.hdqwalls.com/wallpapers/clash-royale-clan-wars-5k-7j.jpg')",
-                fontFamily: 'Roboto, sans-serif',
                 backgroundSize: '100% 100%',
                 backgroundRepeat: 'no-repeat',
                 minHeight: '100vh',
@@ -32,7 +31,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
         <StyledContainer>
-            <Heading paddingBottom="25">Clash Royale Viewer</Heading>
+            <Heading paddingBottom="30" paddingTop={"1"}>Clash Royale Viewer</Heading>
             <form onSubmit={handleSubmit}>
             <FormControl>
             <Input value={tag} onChange={e=>setTag(e.target.value)} placeholder="Search" />
